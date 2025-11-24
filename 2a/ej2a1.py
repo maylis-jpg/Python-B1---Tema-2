@@ -73,4 +73,4 @@ def sum_even_numbers_in_list_do_while(list_numbers):
 list_numbers = [10, 449, 33, 44, 188, 640]
 # print(sum_even_numbers_in_list_while(list_numbers))
 # print(sum_even_numbers_in_list_for(list_numbers))
-print(sum_even_numbers_in_list_do_while(list_numbers))
+# print(sum_even_numbers_in_list_do_while(list_numbers))

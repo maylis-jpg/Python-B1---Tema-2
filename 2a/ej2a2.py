@@ -47,5 +47,5 @@ def tax_calculation_global(value: int):
     tax_percent = 0.24
     return value*tax_percent
  
-print(f"The taxes for group global: {tax_calculation_global(500)}")
-print(f"The taxes for group 1: {tax_calculation_group_1(500)}")
+# print(f"The taxes for group global: {tax_calculation_global(500)}")
+# print(f"The taxes for group 1: {tax_calculation_group_1(500)}")
