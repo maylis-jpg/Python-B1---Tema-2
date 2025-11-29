@@ -31,18 +31,25 @@ El año a comprobar será '2000', por lo que:
 
 
 def check_leap_year(year):
-    ''' Determinar si año es bisiesto'''
-    if year % 4 == 0:
-        if year % 100 != 0:
-            print(f"El año {year} si es un año bisiesto")
-        else:
-            if year % 400 == 0:
-                print(f"El año {year} si es un año bisiesto")
-            else:
-                print(f"El año {year} no es un año bisiesto")
-    else:
-        print(f"El año {year} no es un año bisiesto")
+    """
+    Determina si un año es bisiesto.
 
-    pass
+    Parámetros
+    ----------
+    year : int
+        Año que se desea verificar.
 
-print(check_leap_year(2000))
+    Returns
+    -------
+    bool
+        True si el año es bisiesto, False en caso contrario.
+    """
+    if year % 4 != 0:
+        return False
+
+    if year % 100 != 0:
+        return True
+
+    return year % 400 == 0
+
+# print(check_leap_year(2000))
