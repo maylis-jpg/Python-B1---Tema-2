@@ -65,14 +65,16 @@ def main(list_students, new_student_by_value, new_student_by_reference):
 
     print(f"Original student list {list_students}")
 
-    list_value = add_student_by_value(list_students, new_student_by_value)
+    add_student_by_value(list_students, new_student_by_value)
     print(f"Student list by value {list_value}")
 
     list_reference = add_student_by_reference(list_students, new_student_by_reference)
-    print(f"Student list by reference {list_reference}\nOriginal student list {list_students}")    
+    print(f"Student list by reference {list_reference}")
+    print(f"Original student list {list_students}")  
 
-list_students = ["Alice", "Bob", "Juan"]
-new_student_by_value = "Maria"
-new_student_by_reference = "Sofia"
+    return list_students 
 
-main(list_students, new_student_by_value, new_student_by_reference)
+# list_students = ["Alice", "Bob", "Juan"]
+# new_student_by_value = "Maria"
+# new_student_by_reference = "Sofia"
+# main(list_students, new_student_by_value, new_student_by_reference)
