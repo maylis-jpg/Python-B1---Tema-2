@@ -52,5 +52,5 @@ def calculate_factorial(number: int):
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
 
-print(calculate_factorial(5))
-print(calculate_factorial(-5))
+#print(calculate_factorial(5))
+#print(calculate_factorial(-5))
